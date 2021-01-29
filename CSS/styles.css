@@ -1,0 +1,130 @@
+@keyframes example {
+    from {background-color: rgb(145,51,31);}
+    to {background-color: rgb(200,200,200);}
+}
+
+.myNavbar {
+	border-bottom: 1px solid #aaa;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 40px
+}
+
+}
+.myNavbar .nav-link a{
+	font-weight: bold;
+	color: #456;
+	text-decoration: none;
+}
+header{
+	background-color: rgb(71,69,69);
+}
+.form-popup{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+.form-container{
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+.form-container textarea{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	background: #f1f1f1;
+	resize: none;
+	min-height: 200px;
+}
+.form-container textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+.form-container .cancel{
+	background-color: red;
+}
+.form-container .btn:hover,
+.open-button:hover{
+	opacity: 1;
+}
+.bgs{
+	background-image: url("../imgs/city.jpg");
+}
+.dii{
+	float: left;
+}
+h3{
+	text-align: center;
+}
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
